@@ -12,25 +12,75 @@
     </header>
     <main>
       <section>
-        <div class="tag-1">
-            selettore attraverso il tipo di "tag"
-        </div>
-         <div class="tag-2">
-            selettore attraverso il tipo di "tag"
-        </div>   
+        <div class="tag-1">PLATE</div>
+        <div class="tag-2">BENTO</div>
       </section>
       <section>
-        <div class="id">
-            selettore attraverso il tipo di "id"
-        </div>
-        <div class="inside">
-            Selettore di "tag" dentro altri "tag"
-        </div>
-    </section>
-      
+        <div class="id">#FANCY</div>
+        <div class="inside">PLATE APPLE</div>
+      </section>
+      <section>
+        <div class="descendant-id">#FANCY PICKLE</div>
+        <div class="class">.SMALL</div>
+      </section>
+      <section>
+        <div class="combine-class">ORANGE.SMALL</div>
+        <div class="combine">BENTO ORANGE.SMALL</div>
+      </section>
+      <section>
+        <div class="comma">PLATE,BENTO</div>
+        <div class="universal">*</div>
+      </section>
+      <section>
+        <div class="combine-universal">PLATE *</div>
+        <div class="adjacent">PLATE + APPLE</div>
+      </section>
+      <section>
+        <div class="follow">BENTO ~ PICKLE</div>
+        <div class="child">PLATE>APPLE</div>
+      </section>
+      <section>
+        <div class="child-1">ORANGE:FIRST-CHILD</div>
+        <div class="only">PLATE PICKLE:ONLY-CHILD, PLATE APPLE:ONLY-CHILD</div>
+      </section>
+      <section>
+        <div class="last">APPLE:LAST-CHILD,PICKLE:LAST-CHILD</div>
+        <div class="nth-child">PLATE:NTH-CHILD (3)</div>
+      </section>
+      <section>
+        <div class="nth-last">BENTO:NTH-LAST-CHILD(3)</div>
+        <div class="first-type">APPLE:FIRST-OF-TYPE</div>
+      </section>
+      <section>
+        <div class="nth-type">PLATE:NTH-OF-TYPE(EVEN)</div>
+        <div class="nth-type-formula">PLATE:NTH-OF-TYPE(2N+3)</div>
+      </section>
+      <section>
+        <div class="only-type">APPLE:ONLY-OF-TYPE</div>
+        <div class="last-type">ORANGE:LAST-OF-TYPE,APPLE:LAST-OF-TYPE</div>
+      </section>
+      <section>
+        <div class="empty">EMPTY BENTO</div>
+        <div class="negation">APPLE:NOT(.SMALL)</div>
+      </section>
+      <section>
+        <div class="attribute">[FOR]</div>
+        <div class="tag-attribute">PLATE[FOR]</div>
+      </section>
+      <section>
+        <div class="attribute-value">[FOR="VITALY"]</div>
+        <div class="attribute-start">[FOR^="S"]</div>
+      </section>
+      <section>
+        <div class="attribute-end">[FOR$="ATO"]</div>
+        <div class="attribute-wildcard">[FOR*="BB"]</div>
+      </section>
+      <section>
+        <div class="end"></div>
+      </section>
     </main>
     <footer>
-      <a href="https://flukeout.github.io/" target="_blank"> Gioca</a>
+      <a href="https://flukeout.github.io/" target="_blank"> Play</a>
     </footer>
   </body>
 </html>
